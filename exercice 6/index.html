@@ -5,50 +5,10 @@
     <title>Exercice 6</title>
   </head>
   <body>
-  <img src="images/image1.jpg" id="image1" onmouseover="changeIMG(this.id)" onmouseout="changeIMG(this.id)"/>
-  <img src="images/image2.jpg" id="image2" onmouseover="changeIMG(this.id)" onmouseout="changeIMG(this.id)"/>
-  <img src="images/image3.jpg" id="image3" onmouseover="changeIMG(this.id)" onmouseout="changeIMG(this.id)"/>
-  <img src="images/image4.jpg" id="image4" onmouseover="changeIMG(this.id)" onmouseout="changeIMG(this.id)"/>
-  <img src="images/image5.jpg" id="image5" onmouseover="changeIMG(this.id)" onmouseout="changeIMG(this.id)"/>
-      <script>
-          function changeIMG(over_id){
-              if (over_id == "image1"){
-                  var image = document.getElementById("image1").src;
-                  if (image == document.URL+"images/image1.jpg") {
-                      document.getElementById("image1").src = "images/image1_2.jpg";
-                  }else{
-                      document.getElementById("image1").src = "images/image1.jpg";
-                  }
-              }else if (over_id == "image2"){
-                  var image = document.getElementById("image2").src;
-                  if (image == document.URL+"images/image2.jpg") {
-                      document.getElementById("image2").src = "images/image2_2.jpg";
-                  }else{
-                      document.getElementById("image2").src = "images/image2.jpg";
-                  }
-              }else if (over_id == "image3"){
-                  var image = document.getElementById("image3").src;
-                  if (image == document.URL+"images/image3.jpg") {
-                      document.getElementById("image3").src = "images/image3_2.jpg";
-                  }else{
-                      document.getElementById("image3").src = "images/image3.jpg";
-                  }
-              }else if (over_id == "image4"){
-                  var image = document.getElementById("image4").src;
-                  if (image == document.URL+"images/image4.jpg") {
-                      document.getElementById("image4").src = "images/image4_2.jpg";
-                  }else{
-                      document.getElementById("image4").src = "images/image4.jpg";
-                  }
-              }else if (over_id == "image5"){
-                  var image = document.getElementById("image5").src;
-                  if (image == document.URL+"images/image5.jpg") {
-                      document.getElementById("image5").src = "images/image5_2.jpg";
-                  }else{
-                      document.getElementById("image5").src = "images/image5.jpg";
-                  }
-              }
-          }
-      </script>
+      <img src="images/image1.jpg" id="image1" />
+      <img src="images/image2.jpg" id="image2" />
+      <img src="images/image3.jpg" id="image3" />
+      <img src="images/image4.jpg" id="image4" />
+      <img src="images/image5.jpg" id="image5" />
   </body>
 </html>
